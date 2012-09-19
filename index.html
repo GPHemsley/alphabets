@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8" />
+	<title>Languages, Alphabets, and Encodings</title>
+
+	<link rel="stylesheet" href="style/screen.css" media="screen" />
+</head>
+<body>
+	<div>
+		<header>
+			<nav id="breadcrumbs"><b>Languages, Alphabets, and Encodings</b></nav>
+
+			<h1>Languages, Alphabets, and Encodings</h1>
+
+			<dl id="metadata">
+				<dt id="metadata-editor">Editor</dt>
+				<dd>Gordon P. Hemsley, &lt;<a href="mailto:me@gphemsley.org">me@gphemsley.org</a>&gt;</dd>
+			</dl>
+
+			<nav id="page-toc">
+				<h1>Table of Contents</h1>
+
+				<ol>
+					<li><a href="Latn.html">Latin script [Latn]</a></li>
+				</ol>
+			</nav>
+		</header>
+
+		<section id="content">
+			<h1></h1>
+
+			<section>
+				<h1>Introduction</h1>
+
+				<p>This document strives to record the alphabets used in the world's language, and to identify the Web-accessible encodings that are capable of rendering text written in such alphabets.</p>
+			</section>
+
+			<section>
+				<h1>Structure of this document</h1>
+
+				<p>The document is first split up by script, identified by their 4-character script tag, as listed in the IANA Language Subtag Registry. Each script page then lists languages that use alphabets derived from that base script. Each language then lists the primary letters of the alphabet, plus certain secondary letters and punctuation characters commonly in use in that language.</p>
+				<p>These lists will be in the form of tables which describe the Unicode codepoint, block, and description of each character, and they will be in alphabetical order, where possible. <span class="ref"><a href="#ref:encoding">[UNICODE]</a></span></p>
+				<p>Following the lists of characters will be a list of Web-accessible encodings that are capable of displaying text in that language, in order of preference. In general, UTF-8 is recommended for all newly created documents in any language. <span class="ref"><a href="#ref:encoding">[ENCODING]</a></span></p>
+			</section>
+
+			<section>
+				<h1>Full table of contents</h1>
+
+				<ol>
+					<li><a href="Latn.html">Latin script [Latn]</a>
+						<ol>
+							<li><a href="Latn.html#lang:en">English [en]</a></li>
+						</ol>
+					</li>
+				</ol>
+			</section>
+		</section>
+
+		<section id="ref">
+			<h1>References</h1>
+
+			<dl>
+				<dt><dfn id="ref:encoding">[ENCODING]</dfn></dt>
+				<dd><a href="http://encoding.spec.whatwg.org/"><cite>Encoding Standard</cite></a>. WHATWG. Edited by <span class="author">Anne van Kesteren</span>.</dd>
+
+				<dt><dfn id="ref:wplatnderiv">[WPLATNDERIV]</dfn></dt>
+				<dd><a href="http://en.wikipedia.org/wiki/Latin-derived_alphabet"><cite>Latin-derived alphabet</cite></a>. Wikipedia, The Free Encyclopedia.</dd>
+
+				<dt><dfn id="ref:unicode">[UNICODE]</dfn></dt>
+				<dd><a href="http://www.unicode.org/versions/latest/"><cite>Unicode Standard</cite></a>. Unicode Consortium.</dd>
+			</dl>
+		</section>
+	</div>
+</body>
+</html>
